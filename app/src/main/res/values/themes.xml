@@ -1,0 +1,32 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Greenhouse" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryVariant">@color/primaryVariant</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/secondary</item>
+        <item name="colorSecondaryVariant">@color/secondary</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor">?colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+        <item name="android:windowBackground">@color/white</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="Greenhouse.TabTextAppearance" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:fontFamily">@font/worksans_medium</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="Greenhouse.ChipTextAppearance" parent="ShapeAppearanceOverlay.Material3.Chip">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">@font/worksans_regular</item>
+    </style>
+
+    <style name="Greenhouse.TextInputLayout.FilledBox" parent="Widget.Material3.TextInputLayout.FilledBox">
+        <item name="background">?colorSecondary</item>
+    </style>
+</resources>
